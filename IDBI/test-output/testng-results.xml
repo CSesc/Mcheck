@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="2" failed="0" total="2" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="53753" started-at="2015-07-14T23:27:45Z" finished-at="2015-07-14T23:28:38Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="53753" started-at="2015-07-14T23:27:45Z" finished-at="2015-07-14T23:28:38Z">
+      <class name="DwnldImg2">
+        <test-method status="FAIL" signature="setup()[pri:0, instance:DwnldImg2@1ae369b7]" name="setup" is-config="true" duration-ms="0" started-at="2015-07-15T04:57:45Z" finished-at="2015-07-15T04:57:45Z">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[Unable to bind to locking port 7054 within 45000 ms
+Build info: version: '2.39.0', revision: 'ff23eac', time: '2013-12-16 16:11:15'
+System info: host: 'Mod-X', ip: '192.168.1.6', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_40'
+Driver info: driver.version: FirefoxDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: Unable to bind to locking port 7054 within 45000 ms
+Build info: version: '2.39.0', revision: 'ff23eac', time: '2013-12-16 16:11:15'
+System info: host: 'Mod-X', ip: '192.168.1.6', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_40'
+Driver info: driver.version: FirefoxDriver
+	at org.openqa.selenium.internal.SocketLock.lock(SocketLock.java:98)
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:84)
+	at org.openqa.selenium.firefox.FirefoxDriver.startClient(FirefoxDriver.java:250)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:110)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:197)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:190)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:186)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:99)
+	at DwnldImg2.setup(DwnldImg2.java:28)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:641)
+	at org.testng.TestRunner.run(TestRunner.java:609)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="SKIP" signature="matter()[pri:0, instance:DwnldImg2@1ae369b7]" name="matter" duration-ms="16" started-at="2015-07-15T04:58:38Z" finished-at="2015-07-15T04:58:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- matter -->
+        <test-method status="SKIP" signature="Save_Image()[pri:0, instance:DwnldImg2@1ae369b7]" name="Save_Image" duration-ms="0" started-at="2015-07-15T04:58:38Z" finished-at="2015-07-15T04:58:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Save_Image -->
+        <test-method status="SKIP" signature="TearDown()[pri:0, instance:DwnldImg2@1ae369b7]" name="TearDown" is-config="true" duration-ms="0" started-at="2015-07-15T04:58:38Z" finished-at="2015-07-15T04:58:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- DwnldImg2 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

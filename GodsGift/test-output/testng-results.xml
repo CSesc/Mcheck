@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="15467" started-at="2015-07-18T23:19:03Z" finished-at="2015-07-18T23:19:18Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="15467" started-at="2015-07-18T23:19:03Z" finished-at="2015-07-18T23:19:18Z">
+      <class name="GetData.Getit">
+        <test-method status="PASS" signature="setup()[pri:0, instance:GetData.Getit@6791525e]" name="setup" is-config="true" duration-ms="11065" started-at="2015-07-19T04:49:03Z" finished-at="2015-07-19T04:49:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="matter()[pri:0, instance:GetData.Getit@6791525e]" name="matter" duration-ms="1317" started-at="2015-07-19T04:49:14Z" finished-at="2015-07-19T04:49:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- matter -->
+        <test-method status="PASS" signature="Save_Image()[pri:0, instance:GetData.Getit@6791525e]" name="Save_Image" duration-ms="2692" started-at="2015-07-19T04:49:15Z" finished-at="2015-07-19T04:49:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Save_Image -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:GetData.Getit@6791525e]" name="TearDown" is-config="true" duration-ms="359" started-at="2015-07-19T04:49:18Z" finished-at="2015-07-19T04:49:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- GetData.Getit -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

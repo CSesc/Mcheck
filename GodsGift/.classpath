@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry excluding="src/" kind="src" path=""/>
+	<classpathentry kind="lib" path="C:/Sel/apache-mime4j-0.6.jar"/>
+	<classpathentry kind="lib" path="C:/Sel/bsh-1.3.0.jar"/>
+	<classpathentry kind="lib" path="C:/Sel/cglib-nodep-2.1_3.jar"/>
+	<classpathentry kind="lib" path="C:/Sel/commons-codec-1.10.jar"/>
+	<classpathentry kind="lib" path="C:/Sel/commons-collections-3.2.1.jar"/>
+	<classpathentry kind="lib" path="C:/Sel/commons-exec-1.3.jar"/>
+	<classpathentry kind="lib" path="C:/Sel/commons-io-2.4.jar"/>
+	<classpathentry kind="lib" path="C:/Sel/commons-lang3-3.4.jar"/>
+	<classpathentry kind="lib" path="C:/Sel/commons-logging-1.1.3.jar"/>
+	<classpathentry kind="lib" path="C:/Sel/cssparser-0.9.16.jar"/>
+	<classpathentry kind="lib" path="C:/Sel/gson-2.3.1.jar"/>
+	<classpathentry kind="lib" path="C:/Sel/guava-18.0.jar"/>
+	<classpathentry kind="lib" path="C:/Sel/hamcrest-core-1.3.jar"/>
+	<classpathentry kind="lib" path="C:/Sel/hamcrest-library-1.3.jar"/>
+	<classpathentry kind="lib" path="C:/Sel/htmlunit-2.17.jar"/>
+	<classpathentry kind="lib" path="C:/Sel/htmlunit-core-js-2.17.jar"/>
+	<classpathentry kind="lib" path="C:/Sel/httpclient-4.4.1.jar"/>
+	<classpathentry kind="lib" path="C:/Sel/httpcore-4.4.1.jar"/>
+	<classpathentry kind="lib" path="C:/Sel/httpmime-4.4.1.jar"/>
+	<classpathentry kind="lib" path="C:/Sel/jcommander-1.29.jar"/>
+	<classpathentry kind="lib" path="C:/Sel/jetty-io-9.2.11.v20150529.jar"/>
+	<classpathentry kind="lib" path="C:/Sel/jetty-util-9.2.11.v20150529.jar"/>
+	<classpathentry kind="lib" path="C:/Sel/jna-4.1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Sel/jna-platform-4.1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Sel/junit-dep-4.11.jar"/>
+	<classpathentry kind="lib" path="C:/Sel/nekohtml-1.9.22.jar"/>
+	<classpathentry kind="lib" path="C:/Sel/netty-3.5.7.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Sel/phantomjsdriver-1.2.1.jar"/>
+	<classpathentry kind="lib" path="C:/Sel/sac-1.3.jar"/>
+	<classpathentry kind="lib" path="C:/Sel/selenium-java-2.46.0.jar"/>
+	<classpathentry kind="lib" path="C:/Sel/selenium-java-2.46.0-srcs.jar"/>
+	<classpathentry kind="lib" path="C:/Sel/serializer-2.7.2.jar"/>
+	<classpathentry kind="lib" path="C:/Sel/testng-6.8.5.jar"/>
+	<classpathentry kind="lib" path="C:/Sel/websocket-api-9.2.11.v20150529.jar"/>
+	<classpathentry kind="lib" path="C:/Sel/websocket-client-9.2.11.v20150529.jar"/>
+	<classpathentry kind="lib" path="C:/Sel/websocket-common-9.2.11.v20150529.jar"/>
+	<classpathentry kind="lib" path="C:/Sel/xalan-2.7.2.jar"/>
+	<classpathentry kind="lib" path="C:/Sel/xercesImpl-2.11.0.jar"/>
+	<classpathentry kind="lib" path="C:/Sel/xml-apis-1.4.01.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JDK 7"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

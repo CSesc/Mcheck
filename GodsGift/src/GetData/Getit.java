@@ -17,8 +17,16 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
+//Free sites:
+//Site 1
+//smiler123/smiler123
+//css=#ctl00_ContentPlaceHolder1_ddlCategory > option[value="20"]
 
 public class Getit {
+	
+		String matter;
+		String title;
+		String url;
 		WebDriver driver = null;
 		@BeforeTest
 		public void setup() throws Exception {
@@ -35,27 +43,34 @@ public class Getit {
 			//driver.get("http://godarainfotech.in/index.php?show=postmatter");
 			driver.findElement(By.xpath("//a[contains(text(),'Matter To Post')]")).click();
 			List<WebElement> list = driver.findElements(By.xpath("//a[text()='View & Submit']"));
-			
-			for(WebElement item:list)
-			{
-				
-				System.out.println(item.getText());
-			}
+
 			
 			System.out.println("Count = "+ list.size());
+//Clicking the first matter			
 			driver.findElement(By.xpath("//a[text()='View & Submit']")).click();
-			
-			
+//Getting all needed Values
+			String pageText = driver.findElement(By.id("matterdets")).getText();
+			title	= myMethod(pageText, "Title to Use :", "Matter to Use :");
+			matter	= myMethod(pageText, "Matter to Use :", "Url to Use :");
+			url		= myMethod(pageText, "Url to Use :", "Categories to Post :");
+			System.out.println("Title to Use : "+ title);
+			System.out.println("Matter to Use : "+ matter);
+			System.out.println("URl to Use : "+ url);
+			Save_Image();
 		}
-		
+/*
+ * Tear down to destroy the driver object		
+ */
 		@AfterTest
 		public void TearDown() 
 		{
 			System.out.println("In Tear Down Method");
 			driver.close();
 		}
-
-		@Test(priority=1)
+/*
+ * Script to save the needed image
+ */
+		//@Test(priority=1)
 		public void Save_Image() throws IOException, InterruptedException, AWTException
 		{
 			WebElement Image = driver.findElement(By.xpath("//*[@id='matterdets']/img"));
@@ -77,13 +92,14 @@ public class Getit {
 		@Test
 		public void matter()
 		{
-		String pageText = driver.findElement(By.id("matterdets")).getText();
-		System.out.println("Title to Use : "+ myMethod(pageText, "Title to Use :", "Matter to Use :"));
-		System.out.println("Matter to Use : "+ myMethod(pageText, "Matter to Use :", "Url to Use :"));
-		System.out.println("URl to Use : "+ myMethod(pageText, "Url to Use :", "Categories to Post :"));
+		
 
 		}
-
+/*
+ *Returns the text in Str which lies between s1 and s2 
+ *ex Str-exampleS1_NEEDED TEXT_ S2 
+ *passing above string with S1 and S2 will  return >> '_NEEDED TEXT_ '
+ */
 		public static String myMethod(String str,String s1,String s2)
 		{
 			return str.substring(str.indexOf(s1) + s1.length(), str.indexOf(s2));

@@ -45,8 +45,9 @@ public class Getit {
 			List<WebElement> list = driver.findElements(By.xpath("//a[text()='View & Submit']"));
 
 			
-			System.out.println("Count = "+ list.size());
+			System.out.println("Count of adds = "+ list.size());
 //Clicking the first matter			
+			System.out.println("Processing first Add");
 			driver.findElement(By.xpath("//a[text()='View & Submit']")).click();
 //Getting all needed Values
 			String pageText = driver.findElement(By.id("matterdets")).getText();

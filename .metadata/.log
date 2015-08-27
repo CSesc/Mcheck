@@ -109,3 +109,28 @@ user global configuration and to define the default location to store repositori
 not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
 EGit might behave differently since they see different configuration options.
 This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2015-08-27 23:56:11.306 -----------------------------------------------
+eclipse.buildId=4.5.0.I20150603-2000
+java.version=1.8.0_51
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.jee.product -data C:\AC\Mcheck -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.core.resources 2 10035 2015-08-27 23:56:17.138
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-08-27 23:56:59.723
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\HoneyDue'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.testng.eclipse 1 0 2015-08-28 00:02:32.215
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\AC\Mcheck\GodsGift\bin C:\AC\Mcheck\Sel\apache-mime4j-0.6.jar C:\AC\Mcheck\Sel\bsh-1.3.0.jar C:\AC\Mcheck\Sel\cglib-nodep-2.1_3.jar C:\AC\Mcheck\Sel\commons-codec-1.10.jar C:\AC\Mcheck\Sel\commons-collections-3.2.1.jar C:\AC\Mcheck\Sel\commons-exec-1.3.jar C:\AC\Mcheck\Sel\commons-io-2.4.jar C:\AC\Mcheck\Sel\commons-lang3-3.4.jar C:\AC\Mcheck\Sel\commons-logging-1.1.3.jar C:\AC\Mcheck\Sel\cssparser-0.9.16.jar C:\AC\Mcheck\Sel\gson-2.3.1.jar C:\AC\Mcheck\Sel\guava-18.0.jar C:\AC\Mcheck\Sel\hamcrest-core-1.3.jar C:\AC\Mcheck\Sel\hamcrest-library-1.3.jar C:\AC\Mcheck\Sel\htmlunit-2.17.jar C:\AC\Mcheck\Sel\htmlunit-core-js-2.17.jar C:\AC\Mcheck\Sel\httpclient-4.4.1.jar C:\AC\Mcheck\Sel\httpcore-4.4.1.jar C:\AC\Mcheck\Sel\httpmime-4.4.1.jar C:\AC\Mcheck\Sel\jcommander-1.29.jar C:\AC\Mcheck\Sel\jetty-io-9.2.11.v20150529.jar C:\AC\Mcheck\Sel\jetty-util-9.2.11.v20150529.jar C:\AC\Mcheck\Sel\jna-4.1.0.jar C:\AC\Mcheck\Sel\jna-platform-4.1.0.jar C:\AC\Mcheck\Sel\junit-dep-4.11.jar C:\AC\Mcheck\Sel\nekohtml-1.9.22.jar C:\AC\Mcheck\Sel\netty-3.5.7.Final.jar C:\AC\Mcheck\Sel\phantomjsdriver-1.2.1.jar C:\AC\Mcheck\Sel\sac-1.3.jar C:\AC\Mcheck\Sel\selenium-java-2.46.0.jar C:\AC\Mcheck\Sel\selenium-java-2.46.0-srcs.jar C:\AC\Mcheck\Sel\serializer-2.7.2.jar C:\AC\Mcheck\Sel\testng-6.8.5.jar C:\AC\Mcheck\Sel\websocket-api-9.2.11.v20150529.jar C:\AC\Mcheck\Sel\websocket-client-9.2.11.v20150529.jar C:\AC\Mcheck\Sel\websocket-common-9.2.11.v20150529.jar C:\AC\Mcheck\Sel\xalan-2.7.2.jar C:\AC\Mcheck\Sel\xercesImpl-2.11.0.jar C:\AC\Mcheck\Sel\xml-apis-1.4.01.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 55098 -d C:\AC\Mcheck\GodsGift\test-output C:\Users\HoneyDue\AppData\Local\Temp\testng-eclipse-29590683\testng-customsuite.xml
+java -ea -classpath C:\AC\Mcheck\GodsGift\bin:C:\AC\Mcheck\Sel\apache-mime4j-0.6.jar:C:\AC\Mcheck\Sel\bsh-1.3.0.jar:C:\AC\Mcheck\Sel\cglib-nodep-2.1_3.jar:C:\AC\Mcheck\Sel\commons-codec-1.10.jar:C:\AC\Mcheck\Sel\commons-collections-3.2.1.jar:C:\AC\Mcheck\Sel\commons-exec-1.3.jar:C:\AC\Mcheck\Sel\commons-io-2.4.jar:C:\AC\Mcheck\Sel\commons-lang3-3.4.jar:C:\AC\Mcheck\Sel\commons-logging-1.1.3.jar:C:\AC\Mcheck\Sel\cssparser-0.9.16.jar:C:\AC\Mcheck\Sel\gson-2.3.1.jar:C:\AC\Mcheck\Sel\guava-18.0.jar:C:\AC\Mcheck\Sel\hamcrest-core-1.3.jar:C:\AC\Mcheck\Sel\hamcrest-library-1.3.jar:C:\AC\Mcheck\Sel\htmlunit-2.17.jar:C:\AC\Mcheck\Sel\htmlunit-core-js-2.17.jar:C:\AC\Mcheck\Sel\httpclient-4.4.1.jar:C:\AC\Mcheck\Sel\httpcore-4.4.1.jar:C:\AC\Mcheck\Sel\httpmime-4.4.1.jar:C:\AC\Mcheck\Sel\jcommander-1.29.jar:C:\AC\Mcheck\Sel\jetty-io-9.2.11.v20150529.jar:C:\AC\Mcheck\Sel\jetty-util-9.2.11.v20150529.jar:C:\AC\Mcheck\Sel\jna-4.1.0.jar:C:\AC\Mcheck\Sel\jna-platform-4.1.0.jar:C:\AC\Mcheck\Sel\junit-dep-4.11.jar:C:\AC\Mcheck\Sel\nekohtml-1.9.22.jar:C:\AC\Mcheck\Sel\netty-3.5.7.Final.jar:C:\AC\Mcheck\Sel\phantomjsdriver-1.2.1.jar:C:\AC\Mcheck\Sel\sac-1.3.jar:C:\AC\Mcheck\Sel\selenium-java-2.46.0.jar:C:\AC\Mcheck\Sel\selenium-java-2.46.0-srcs.jar:C:\AC\Mcheck\Sel\serializer-2.7.2.jar:C:\AC\Mcheck\Sel\testng-6.8.5.jar:C:\AC\Mcheck\Sel\websocket-api-9.2.11.v20150529.jar:C:\AC\Mcheck\Sel\websocket-client-9.2.11.v20150529.jar:C:\AC\Mcheck\Sel\websocket-common-9.2.11.v20150529.jar:C:\AC\Mcheck\Sel\xalan-2.7.2.jar:C:\AC\Mcheck\Sel\xercesImpl-2.11.0.jar:C:\AC\Mcheck\Sel\xml-apis-1.4.01.jar org.testng.remote.RemoteTestNG -serport 55098 -d C:\AC\Mcheck\GodsGift\test-output C:\Users\HoneyDue\AppData\Local\Temp\testng-eclipse-29590683\testng-customsuite.xml

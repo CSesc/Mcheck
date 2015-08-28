@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="GetData.PostSite1">
+      <class name="GetData.Post_Site2">
         <methods>
           <include name="start"/>
-          <include name="post_Add"/>
-          <include name="login_00"/>
+          <include name="postAdd_001"/>
+          <include name="TearDown"/>
         </methods>
-      </class> <!-- GetData.PostSite1 -->
+      </class> <!-- GetData.Post_Site2 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -225,7 +225,7 @@ public class Getit {
 		}
 
 		public void pastePath(Robot rb) throws InterruptedException
-		{
+		{	int getMcName=1;
 			rb.keyPress(KeyEvent.VK_C);
 			rb.keyRelease(KeyEvent.VK_C);
 			
@@ -238,7 +238,6 @@ public class Getit {
 			rb.keyPress(KeyEvent.VK_BACK_SLASH);
 			rb.keyRelease(KeyEvent.VK_BACK_SLASH);
 			
-			Thread.sleep(1000);
 			rb.keyPress(KeyEvent.VK_SHIFT);
 			rb.keyPress(KeyEvent.VK_U);
 			rb.keyRelease(KeyEvent.VK_U);
@@ -259,52 +258,90 @@ public class Getit {
 			rb.keyPress(KeyEvent.VK_BACK_SLASH);
 			rb.keyRelease(KeyEvent.VK_BACK_SLASH);
 			
-			rb.keyPress(KeyEvent.VK_SHIFT);
-			rb.keyPress(KeyEvent.VK_U);
-			rb.keyRelease(KeyEvent.VK_U);
-			rb.keyRelease(KeyEvent.VK_SHIFT);
-			
-			rb.keyPress(KeyEvent.VK_T);
-			rb.keyRelease(KeyEvent.VK_T);
-			
-			rb.keyPress(KeyEvent.VK_K);
-			rb.keyRelease(KeyEvent.VK_K);
-			
-			rb.keyPress(KeyEvent.VK_A);
-			rb.keyRelease(KeyEvent.VK_A);
-			
-			rb.keyPress(KeyEvent.VK_R);
-			rb.keyRelease(KeyEvent.VK_R);
-			
-			rb.keyPress(KeyEvent.VK_S);
-			rb.keyRelease(KeyEvent.VK_S);
-			
-			rb.keyPress(KeyEvent.VK_H);
-			rb.keyRelease(KeyEvent.VK_H);
-			Thread.sleep(500);
-			
-			rb.keyPress(KeyEvent.VK_SHIFT);
-			rb.keyPress(KeyEvent.VK_MINUS);
-			rb.keyRelease(KeyEvent.VK_MINUS);
-			rb.keyRelease(KeyEvent.VK_SHIFT);
-			
-			rb.keyPress(KeyEvent.VK_SHIFT);
-			rb.keyPress(KeyEvent.VK_S);
-			rb.keyRelease(KeyEvent.VK_S);
-			rb.keyRelease(KeyEvent.VK_SHIFT);
-			
-			rb.keyPress(KeyEvent.VK_I);
-			rb.keyRelease(KeyEvent.VK_I);
-			
-			rb.keyPress(KeyEvent.VK_N);
-			rb.keyRelease(KeyEvent.VK_N);
 
-			rb.keyPress(KeyEvent.VK_H);
-			rb.keyRelease(KeyEvent.VK_H);
+			Thread.sleep(1000);
+			switch(getMcName)
+			{
+				case 1 ://C:\Users\HoneyDue
+							rb.keyPress(KeyEvent.VK_SHIFT);
+							rb.keyPress(KeyEvent.VK_H);
+							rb.keyRelease(KeyEvent.VK_H);
+							rb.keyRelease(KeyEvent.VK_SHIFT);
+		
+							rb.keyPress(KeyEvent.VK_O);
+							rb.keyRelease(KeyEvent.VK_O);
+		
+							rb.keyPress(KeyEvent.VK_N);
+							rb.keyRelease(KeyEvent.VK_N);
+							
+							rb.keyPress(KeyEvent.VK_E);
+							rb.keyRelease(KeyEvent.VK_E);
+							
+							rb.keyPress(KeyEvent.VK_Y);
+							rb.keyRelease(KeyEvent.VK_Y);
+		
+							rb.keyPress(KeyEvent.VK_SHIFT);
+							rb.keyPress(KeyEvent.VK_D);
+							rb.keyRelease(KeyEvent.VK_D);
+							rb.keyRelease(KeyEvent.VK_SHIFT);
+							
+							rb.keyPress(KeyEvent.VK_U);
+							rb.keyRelease(KeyEvent.VK_U);
+							
+							rb.keyPress(KeyEvent.VK_E);
+							rb.keyRelease(KeyEvent.VK_E);
+														break;
+				case 2 ://Off Lappy
 
-			rb.keyPress(KeyEvent.VK_A);
-			rb.keyRelease(KeyEvent.VK_A);
-			
+							rb.keyPress(KeyEvent.VK_SHIFT);
+							rb.keyPress(KeyEvent.VK_U);
+							rb.keyRelease(KeyEvent.VK_U);
+							rb.keyRelease(KeyEvent.VK_SHIFT);
+							
+							rb.keyPress(KeyEvent.VK_T);
+							rb.keyRelease(KeyEvent.VK_T);
+							
+							rb.keyPress(KeyEvent.VK_K);
+							rb.keyRelease(KeyEvent.VK_K);
+							
+							rb.keyPress(KeyEvent.VK_A);
+							rb.keyRelease(KeyEvent.VK_A);
+							
+							rb.keyPress(KeyEvent.VK_R);
+							rb.keyRelease(KeyEvent.VK_R);
+							
+							rb.keyPress(KeyEvent.VK_S);
+							rb.keyRelease(KeyEvent.VK_S);
+							
+							rb.keyPress(KeyEvent.VK_H);
+							rb.keyRelease(KeyEvent.VK_H);
+							Thread.sleep(500);
+							
+							rb.keyPress(KeyEvent.VK_SHIFT);
+							rb.keyPress(KeyEvent.VK_MINUS);
+							rb.keyRelease(KeyEvent.VK_MINUS);
+							rb.keyRelease(KeyEvent.VK_SHIFT);
+							
+							rb.keyPress(KeyEvent.VK_SHIFT);
+							rb.keyPress(KeyEvent.VK_S);
+							rb.keyRelease(KeyEvent.VK_S);
+							rb.keyRelease(KeyEvent.VK_SHIFT);
+							
+							rb.keyPress(KeyEvent.VK_I);
+							rb.keyRelease(KeyEvent.VK_I);
+							
+							rb.keyPress(KeyEvent.VK_N);
+							rb.keyRelease(KeyEvent.VK_N);
+		
+							rb.keyPress(KeyEvent.VK_H);
+							rb.keyRelease(KeyEvent.VK_H);
+		
+							rb.keyPress(KeyEvent.VK_A);
+							rb.keyRelease(KeyEvent.VK_A);
+							break;
+							
+			}
+						
 			rb.keyPress(KeyEvent.VK_BACK_SLASH);
 			rb.keyRelease(KeyEvent.VK_BACK_SLASH);
 			

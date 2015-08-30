@@ -1,29 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="34140" started-at="2015-08-28T14:59:36Z" finished-at="2015-08-28T15:00:10Z">
+  <suite name="Default suite" duration-ms="68374" started-at="2015-08-30T21:17:06Z" finished-at="2015-08-30T21:18:14Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="34140" started-at="2015-08-28T14:59:36Z" finished-at="2015-08-28T15:00:10Z">
-      <class name="GetData.Post_Site2">
-        <test-method status="PASS" signature="start()[pri:0, instance:GetData.Post_Site2@5bef66]" name="start" is-config="true" duration-ms="16144" started-at="2015-08-28T20:29:36Z" finished-at="2015-08-28T20:29:52Z">
+    <test name="Default test" duration-ms="68374" started-at="2015-08-30T21:17:06Z" finished-at="2015-08-30T21:18:14Z">
+      <class name="Getit">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Getit@6833ce2c]" name="setup" is-config="true" duration-ms="21933" started-at="2015-08-31T02:47:06Z" finished-at="2015-08-31T02:47:28Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- start -->
-        <test-method status="PASS" signature="login_001()[pri:0, instance:GetData.Post_Site2@5bef66]" name="login_001" duration-ms="3306" started-at="2015-08-28T20:29:52Z" finished-at="2015-08-28T20:29:56Z">
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="Site1_cityBase()[pri:0, instance:Getit@6833ce2c]" name="Site1_cityBase" duration-ms="46392" started-at="2015-08-31T02:47:28Z" finished-at="2015-08-31T02:48:14Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- login_001 -->
-        <test-method status="PASS" signature="postAdd_001()[pri:0, instance:GetData.Post_Site2@5bef66]" name="postAdd_001" duration-ms="14665" started-at="2015-08-28T20:29:56Z" finished-at="2015-08-28T20:30:10Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- postAdd_001 -->
-        <test-method status="PASS" signature="TearDown()[pri:0, instance:GetData.Post_Site2@5bef66]" name="TearDown" is-config="true" duration-ms="0" started-at="2015-08-28T20:30:10Z" finished-at="2015-08-28T20:30:10Z">
+        </test-method> <!-- Site1_cityBase -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:Getit@6833ce2c]" name="TearDown" is-config="true" duration-ms="21" started-at="2015-08-31T02:48:14Z" finished-at="2015-08-31T02:48:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
-      </class> <!-- GetData.Post_Site2 -->
+      </class> <!-- Getit -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

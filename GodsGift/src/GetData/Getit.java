@@ -7,6 +7,7 @@ import java.awt.event.KeyEvent;
 import java.io.File;
 import java.io.IOException;
 import java.util.List;
+import java.util.Map;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
@@ -19,7 +20,10 @@ import org.openqa.selenium.support.ui.Select;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
-
+//CAPATCHA FREE
+//http://indiabusinesszone.com
+//http://www.ianol.in
+//http://www.indiae.in
 
 public class Getit {
 	
@@ -28,7 +32,7 @@ public class Getit {
 		String Url="default Url";
 		String Img="\\Documents\\img\\";
 		WebDriver driver = null;
-		@BeforeTest
+@BeforeTest
 		public void setup() throws Exception {
 		    System.out.println("In Setup Method");
 			driver =new FirefoxDriver();     
@@ -81,11 +85,12 @@ public class Getit {
 	     	robot.keyPress(KeyEvent.VK_Y);  
 	     	robot.keyRelease(KeyEvent.VK_Y);  
 	     	
-			System.out.println("Saved Image at default Location C:\\img\\");
+			System.out.println("Saved Image at default Location Documents\\img\\");
 
 		////////////////// Adjustments
-			Title=Title.substring(0,90);
-		
+			//c:\Users\Utkarsh_Sinha\Documents\img\mat1.png
+			//Title=Title.substring(0,90);
+		System.out.println("Working Perfect Till here");
 		}
 		@Test
 		public void Site1_cityBase() throws InterruptedException, AWTException
@@ -214,6 +219,7 @@ public class Getit {
 		}
 		
 	
+		
 /*
  * Tear down to destroy the driver object		
  */
@@ -225,7 +231,9 @@ public class Getit {
 		}
 
 		public void pastePath(Robot rb) throws InterruptedException
-		{	int getMcName=1;
+		{	
+			String getMcName=getComputerName();
+			System.out.println("Comp Name = "+getMcName);
 			rb.keyPress(KeyEvent.VK_C);
 			rb.keyRelease(KeyEvent.VK_C);
 			
@@ -262,7 +270,7 @@ public class Getit {
 			Thread.sleep(1000);
 			switch(getMcName)
 			{
-				case 1 ://C:\Users\HoneyDue
+				case "HoneyDew" ://C:\Users\HoneyDue
 							rb.keyPress(KeyEvent.VK_SHIFT);
 							rb.keyPress(KeyEvent.VK_H);
 							rb.keyRelease(KeyEvent.VK_H);
@@ -290,8 +298,9 @@ public class Getit {
 							
 							rb.keyPress(KeyEvent.VK_E);
 							rb.keyRelease(KeyEvent.VK_E);
-														break;
-				case 2 ://Off Lappy
+							break;
+							
+				case "PUNE-DESK073" ://Off Lappy
 
 							rb.keyPress(KeyEvent.VK_SHIFT);
 							rb.keyPress(KeyEvent.VK_U);
@@ -419,6 +428,16 @@ public class Getit {
 	     	rb.keyRelease(KeyEvent.VK_ENTER);  
 			Thread.sleep(2000);
 
+		}
+		private String getComputerName()
+		{
+		    Map<String, String> env = System.getenv();
+		    if (env.containsKey("COMPUTERNAME"))
+		        return env.get("COMPUTERNAME");
+		    else if (env.containsKey("HOSTNAME"))
+		        return env.get("HOSTNAME");
+		    else
+		        return "Unknown Computer";
 		}
 		private void createUserDir(final String dirName) throws IOException {
 		    final File homeDir = new File(System.getProperty("user.home"));

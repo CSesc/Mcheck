@@ -3,7 +3,7 @@
 <suite name="Suite" parallel="none">
   <test name="Test">
     <classes>
-      <class name="GetData.Getit"/>
+      <class name="Getit"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
